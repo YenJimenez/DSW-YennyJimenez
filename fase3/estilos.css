@@ -21,6 +21,7 @@ display: grid;
 grid-gap: 10px;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(4, auto);
+grid-template-areas: "header header header header" ;
 
 
 }
@@ -40,13 +41,14 @@ border-radius: 4px;
 .contenedor .titulo{
 background: #12203e;
 color: #fff;
-grid-column: span 4;
+/*grid-column: span 4; */
+grid-area: header;
 
 }
 
 .contenedor .nav{
 
-    grid-column: span 4;
+    /*grid-column: span 4;*/
 }
 
 .contenedor .menu{
@@ -155,7 +157,7 @@ text-decoration: none;
 
 .contenido .sidebar{
 
-grid-column: span 1;
+/*grid-column: span 1;*/
 
 
 }
@@ -163,7 +165,7 @@ grid-column: span 1;
 .contenedor .footer {
 background: #12203e;
 color: #fff;
-grid-column: span 4;
+/*grid-column: span 4;*/
 
 
 }
