@@ -10,6 +10,7 @@ body {
     background: #E9ECF4;
     color: #000;
 font-family: 'Roboto', sans-serif;
+line-height: 20px;
 
 }
 
@@ -170,12 +171,25 @@ margin-top: 20px;
 text-align: center;
 
 }
-.contenedor .contenido p{
-margin-top: 20px;
+.contenedor .contenido p,
+                       li,
+                       h3,
+                       h4{
+                      
+/*margin-top: 20px;*/
 margin-left: 20px;
-line-height: 20px;
+margin-right: 20px;
+text-align: justify;
 
 }
+
+.contenedor .contenido img{
+
+margin-left: 20px;
+margin-right: 20xp;
+
+}
+
 
 .contenedor .siderbar{
     
@@ -187,9 +201,12 @@ line-height: 20px;
 
 }
 
+                        
 .contenedor .footer {
 background: #12203e;
 color: #fff;
+text-align: center;
+font-style: italic;
 grid-area: footer;
 /*grid-column: span 4;*/
 padding: 10px;
