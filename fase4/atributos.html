@@ -1,117 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diseño y Construccion II</title>
-    <link rel="stylesheet"href="estilos.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño y Construccion III</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="estilos.css">
 
 </head>
+
 <body>
 
-    <div class="contenedor">
+  <div class="contenidop">
 
-      <header class="titulo">
-        <img class="logo" src="img/logounad.png" alt="logo">
-        <h2>CURSO EDUCATIVO ETIQUETAS BASICAS, ATRIBUTOS Y VALORES HTML</h2>
-      </header>   
-   
-      <nav class="nav">
-        
-        <ul  class="menu">
-          
-        <li><a href="index.html">Inicio</a></li>
-     
-     
-        <li><a href="#">Temas</a>
-          <ul class="sub1">
-             <li><a href="etiquetas.html">Etiquetas Básica de HTML</a></li>
-             <li><a href="atributos.html">Atributos y Valores</a></li>
+    <header class="container-fluid bg-white d-flex justify-content-center" id="titulo">
+      <img class="logo1" src="img/logounad.png" alt="logo1">
+      <h2 class=" ms-5 py-5">CURSO EDUCATIVO ETIQUETAS BASICAS, ATRIBUTOS Y VALORES HTML</h2>
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Temas
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="etiquetas.html">Etiquetas Básica de HTML</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="atributos.html">Atributos y Valores</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Recursos Digitales
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="vietiquetas.html">Videos Etiquetas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="viatributos.html">Videos Atributos y Valores</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Aprendizaje
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="evaluacion1.html">Actividad Etiquetas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="evaluacion2.html">Actividad Atributos y Valores</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="acerdade.html">Acerca de</a>
+            </li>
+            </li>
+
           </ul>
-        </li>
-     
-        <li><a href="#">Recursos Digitales</a>
-        
-            <ul class="sub2">
-              <li><a href="vietiquetas.html">Videos Etiquetas</a></li>
-               <li><a href="viatributos.html">Videos Atributos y Valores</a></li> 
-            </ul>
-        </li>
-        
-        <li><a href="#">Aprendizaje</a>
-           <ul class="sub3">
-             <li><a href="#">Actividad Etiquetas</a></li>
-             <li><a href="#">Actividad Atributos y Valores</a></li> 
-           </ul>
-        </li>
-        <li><a href="acerdade.html">Acerca de</a></li>
+
+        </div>
+      </div>
     </nav>
 
-   
-       
-    <section class="contenido">
 
-      <h2>Atributos y Valores de HTML</h2><br><br>
-      <p>
-        Los atributos son elementos de las etiquetas que pueden proporcionar ciertas características a un texto, imagen, etc.
-         (por ejemplo: altura, ancho, color, etc.)<br>
-         Van insertados dentro de la etiqueta de inicio o apertura y llevan inmediatamente detrás el signo (“=”) con los valores de dichos atributos.<br>
-         HTML no distingue entre mayúsculas y minúsculas, por eso, cuando es importante hacerlo, cosa que puede ocurrir con los valores de algunos atributos,
-          es preciso encerrar el valor entre comillas dobles. El punto y como que sigue al atributo se usa para separar los diferentes comandos de estilo.<i>Equipo Vértice.(2009)</i><br>
-        </p><br><br>
-           <img src="img/atributos.PNG" alt=""height="200" width="600">
-           <p><i>Estuctura. Equipo Vértice.(2009)</i></p>
-           <br>
-    
-           <p><br>Al igual que existen muchas etiquetas también hay muchos atributos:</p><br>
-    
-           <img src="img/atr.PNG" alt=""height="400" width="500"><br>
-           <p><i>Tabla de Atributos. Equipo Vértice.(2009)</i></p>
-           <br>
-           <p>Los atributos contienen información adicional acerca del elemento, la cual no quieres que aparezca en el contenido real del elemento. Aquí class es el nombre del atributo y editor-note
-           el valor del atributo. En este caso, el atributo class permite darle al elemento un nombre identificativo, que se puede utilizar luego para apuntarle al elemento información de estilo y demás cosas.</p>
-            
-           <p> Un atributo debe tener siempre:</p><br>
-           <li>Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o más atributos).</li>
-           <li>El nombre del atributo, seguido por un signo de igual (=).</li>
-           <li>Comillas de apertura y de cierre, encerrando el valor del atribut</li><br><br>
-           <p>Los atributos siempre se incluyen en la etiqueta de apertura de un elemento, nunca en la de cierre.<br>
-            <b>Nota:</b> el atributo con valores simples que no contengan espacios en blanco ASCII (o cualesquiera de los caracteres " ' ` = < >) 
-            pueden permanecer sin entrecomillar, pero se recomienda entrecomillar todos los valores de atributo, ya que esto hace que el código sea más consistente y comprensible.<i>MDN contributors.(2020)</i>
-           </p><br>
-           <p>
-            Los atributos se ven así:
-           </p><br>
-           <img src="img/htmlatributos.png"height="150" width="700" >
-           <p><i>Atributos. MDN contributors.(2020) </i></p>
-           <br><br><br>
-           <h3>Referencias bibliograficas</h3><br>
-           <li>Equipo Vértice.(2009). Diseño básico de páginas web en HTML. Editorial Vértice.Recuperado de <a href="https://books.google.es/books?hl=es&lr=&id=Q4VL8Tiy7gcC&oi=fnd&pg=PP2&dq=atributos+y+valores+html&ots=Vk76AV7mzh&sig=pqrMZUR7YaPZh3GQucmabWs36DU#v=onepage&q=atributos%20y%20valores%20html&f=false/"> Libro Diseño básico de páginas web en HTML</a></li>
-           <li>MDN contributors.(2020).Conceptos Basicos de HTML. Recuperado de <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics"> developer.mozilla.org</a></li><br><br>
-        
-       
-     </section>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="img/slide1.png" class="d-block w-100" alt="slide1">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="img/slide2.jpg" class="d-block w-100" alt="slide2">
+        </div>
 
-     <aside class="siderbar">
-
-      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
-     </aside>
-
-     <footer class="footer">
-       <b>Skype:</b> yen_jimenez <b>Correo:</b> yenjimenezv@gmail.com <b>Fecha actualización: </b>13/04/2022
-      </footer>
-
+      </div>
     </div>
 
-    
+
+
+
+    <section class="container-fluid  my-2 mb-2 ">
+
+
+      <div class="row ">
+        <div class="col-lg-8 col-md-12 col-sm-12 col-border py-5  bg-info p-2" style="--bs-bg-opacity: .2; ">
+
+          <article class="d-flex flex-column justify-content-center  " id="texto">
+
+            <!-- "d-flex justify-content-center flex-wrap" -->
+
+
+
+            <h1 class=" text-primary fs-2 border-top border-3 text-center w-100 m-auto">Atributos y Valores de HTML</h1>
+            <p class="p-4  fs-5">
+              Los atributos son elementos de las etiquetas que pueden proporcionar ciertas características a un texto,
+              imagen, etc.
+              (por ejemplo: altura, ancho, color, etc.)
+              Van insertados dentro de la etiqueta de inicio o apertura y llevan inmediatamente detrás el signo (“=”)
+              con los valores de dichos atributos.
+              HTML no distingue entre mayúsculas y minúsculas, por eso, cuando es importante hacerlo, cosa que puede
+              ocurrir con los valores de algunos atributos,
+              es preciso encerrar el valor entre comillas dobles. El punto y como que sigue al atributo se usa para
+              separar los diferentes comandos de estilo.<i>Equipo Vértice.(2009)</i>
+            </p>
+            <div class="mt-3 text-center">
+              <img id="img-index" src="img/atributos.PNG" alt="index" height="200" width="600">
+              <p class="p-4  fs-6"><i>Estuctura. Equipo Vértice.(2009)</i></p>
+            </div>
+            <p class=" p-4 fs-5"><br>Al igual que existen muchas etiquetas también hay muchos atributos:</p>
+            <div class="mt-3 text-center">
+              <img id="img-index" src="img/atr.PNG" alt="index" height="400" width="500">
+              <p class="p-4  fs-6"><i>Tabla de Atributos. Equipo Vértice.(2009)</i></p>
+            </div>
+
+            <p class=" p-4  fs-5">Los atributos contienen información adicional acerca del elemento, la cual no quieres
+              que aparezca en el contenido real del elemento. Aquí class es el nombre del atributo y editor-note
+              el valor del atributo. En este caso, el atributo class permite darle al elemento un nombre identificativo,
+              que se puede utilizar luego para apuntarle al elemento información de estilo y demás cosas.</p>
+
+            <p class="p-4  fs-5"> Un atributo debe tener siempre:</p>
+            <li class="p-4  fs-5">Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento
+              ya posee uno o más atributos).</li>
+            <li class="p-4  fs-5">El nombre del atributo, seguido por un signo de igual (=).</li>
+            <li class="p-4  fs-5">Comillas de apertura y de cierre, encerrando el valor del atribut</li>
+            <p class="p-4  fs-5">Los atributos siempre se incluyen en la etiqueta de apertura de un elemento, nunca en
+              la de cierre.
+              <b>Nota:</b> el atributo con valores simples que no contengan espacios en blanco ASCII (o cualesquiera de
+              los caracteres " ' ` = <>)
+                pueden permanecer sin entrecomillar, pero se recomienda entrecomillar todos los valores de atributo, ya
+                que esto hace que el código sea más consistente y comprensible.<i>MDN contributors.(2020)</i>
+            </p>
+
+            <p class="p-4  fs-5">
+              Los atributos se ven así:
+            </p>
+            <div class="mt-3 text-center">
+              <img src="img/htmlatributos.png" height="150" width="700">
+              <p class="p-4  fs-6"><i>Atributos. MDN contributors.(2020) </i></p>
+            </div>
+
+            <h3 class=" text-primary fs-2 border-top border-3 w-100 m-auto ">Referencias bibliograficas</h3>
+            <li class="p-4  fs-5">Equipo Vértice.(2009). Diseño básico de páginas web en HTML. Editorial
+              Vértice.Recuperado de <a
+                href="https://books.google.es/books?hl=es&lr=&id=Q4VL8Tiy7gcC&oi=fnd&pg=PP2&dq=atributos+y+valores+html&ots=Vk76AV7mzh&sig=pqrMZUR7YaPZh3GQucmabWs36DU#v=onepage&q=atributos%20y%20valores%20html&f=false/">
+                Libro Diseño básico de páginas web en HTML</a></li>
+            <li class="p-4  fs-5">MDN contributors.(2020).Conceptos Basicos de HTML. Recuperado de <a
+                href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics">
+                developer.mozilla.org</a></li><br><br>
 
 
 
 
 
-  
- 
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 col-border bg-info p-5" style="--bs-bg-opacity: .4;">
+
+          <aside class="d-flex justify-content-center ">
+
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+              width="340" height="500" style="border:none;overflow:hidden" scrolling="yes" frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+          </aside>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+    <footer class="col-border my-0  w-100 mb-2 d-flex align-items justify-content-center flex-wrap">
+      <div id="iconos">
+        <p class=" mb-0 py-3">
+          <i class="bi bi-envelope"></i> <b> yenjimenezv@gmail.com</b>
+          <i class="bi bi-skype"></i> <b> yen_jimenez</b>
+          <i class="bi bi-calendar-check"></i><b> 13/04/2022</b>
+
+        </p>
+      </div>
+
+
+
+      <!-- <b>Skype:</b> yen_jimenez <b>Correo:</b> yenjimenezv@gmail.com <b>Fecha actualización: </b>13/04/2022 -->
+    </footer>
+
+
+
+  </div>
+
+
+
+
+
+
+
 </body>
+
 </html>
