@@ -14,20 +14,22 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="estilos.css">
 
 </head>
 
 <body>
 
-    <div class="contenedor">
+    <!-- <div class="contenedor"> -->
 
-        <header class="titulo">
-            <img class="logo" src="img/logounad.png" alt="logo">
-            <h2>CURSO EDUCATIVO ETIQUETAS BASICAS, ATRIBUTOS Y VALORES HTML</h2>
-        </header>
+    <header class="container-fluid bg-white d-flex justify-content-center ">
+        <img class="logo1" src="img/logounad.png" alt="logo1">
+        <h2 class=" ms-5 py-5">CURSO EDUCATIVO ETIQUETAS BASICAS, ATRIBUTOS Y VALORES HTML</h2>
+    </header>
 
-    </div>
+    <!-- </div> -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -97,11 +99,27 @@
         </div>
     </nav>
 
-    <section class="contenido">
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/slide1.png" class="d-block w-100" alt="slide1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/slide2.jpg" class="d-block w-100" alt="slide2">
+            </div>
+
+        </div>
+    </div>
 
 
-        <div class="row align-items-start">
-            <div class="col-8">
+
+
+    <section class="container-fluid  my-2 mb-2 ">
+
+
+        <div class="row ">
+            <div class="col-lg-8 col-md-12 col-sm-12 py-5  bg-info p-2" style="--bs-bg-opacity: .2;  ">
 
                 <iframe width='100%' height='600px' scrolling='yes'
                     src='https:&#x2F;&#x2F;www.goconqr.com&#x2F;es-ES&#x2F;p&#x2F;36547907-evaluacion-etiquetas-basicas-de-html-quizzes?frame=true'
@@ -113,7 +131,7 @@
 
 
             </div>
-            <div class="col-4" style="background: rgb(166, 221, 240) ;">
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-info p-5" style="--bs-bg-opacity: .4;">
 
                 <aside>
 
@@ -134,12 +152,22 @@
 
 
 
-    <div class="contenedor">
-        <footer class="footer">
-            <b>Skype:</b> yen_jimenez <b>Correo:</b> yenjimenezv@gmail.com <b>Fecha actualización: </b>13/04/2022
-        </footer>
 
-    </div>
+    <footer class="my-0  w-100 mb-2 d-flex align-items justify-content-center flex-wrap">
+        <div id="iconos">
+            <p class=" mb-0 py-3">
+                <i class="bi bi-envelope"></i> <b>     yenjimenezv@gmail.com</b>   
+                 <i class="bi bi-skype"></i> <b>      yen_jimenez</b>
+                 <i class="bi bi-calendar-check"></i><b>      13/04/2022</b>
+            
+            </p>
+
+        </div>
+
+        <!-- <b>Skype:</b> yen_jimenez <b>Correo:</b> yenjimenezv@gmail.com <b>Fecha actualización: </b>13/04/2022 -->
+    </footer>
+
+
 
 
 

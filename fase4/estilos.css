@@ -229,3 +229,26 @@ padding: 10px;
 }
 
 
+.logo1{
+
+    width: 200px;
+    height: 150px;
+
+}
+
+footer {
+    background: #12203e;
+    font-style: italic;
+
+}
+
+footer p {
+color: #fff;
+}
+
+#iconos i {
+font-size: 26px;
+padding: 0 8px;
+color: #fff;
+
+}
